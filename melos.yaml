@@ -1,0 +1,12 @@
+name: apps
+
+packages:
+  - apps/**
+  - packages/**
+scripts:
+  lint:all:
+    run: melos run analyze && melos run format
+
+  analyze:
+    run: |
+      melos exec -- dart analyze --fatal-infos

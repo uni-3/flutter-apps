@@ -1,0 +1,17 @@
+image: gitpod/workspace-flutter
+tasks:
+  - name: install setup
+    before: |
+      dart pub global activate melos
+    init: |
+      flutter pub get
+vscode:
+  extensions:
+    - dart-code.dart-code@3.20.1
+    - dart-code.flutter@3.20.0
+    - vscodevim.vim
+
+gitConfig:
+  alias.st: status
+  alias.cm: commit
+  core.autocrlf: input
