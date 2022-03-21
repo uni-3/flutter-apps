@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+## check weather and air quality
+
+data from [openWeatherMap API](https://openweathermap.org/api)
+
+https://openweathermap.org/api/air-pollution
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
