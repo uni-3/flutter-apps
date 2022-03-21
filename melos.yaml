@@ -10,3 +10,9 @@ scripts:
   analyze:
     run: |
       melos exec -- dart analyze --fatal-infos
+
+  # melos run app:p
+  app:air_pollution:
+      run: melos exec -- flutter run -d web-server lib/main.dart
+      select-package:
+        scope: 'air_pollution'
