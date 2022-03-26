@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:air_pollution/home_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: AppThemeFactory.prepareThemeDate(),
-      home: const MyHomePage(),
+      home: HomePage(),
     );
   }
 }
